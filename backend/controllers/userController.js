@@ -1,7 +1,7 @@
 import User from "../models/User.js";
 import bcrypt from 'bcryptjs';
 import asyncHandler from "../middlewares/asyncHandler.js";
-import createToken from "../utils/createToken.js";
+import createToken from "../utils/createToken.js";x
 
 //Getting the credentials from the user
 const createUser = asyncHandler(async (req, res) => {
